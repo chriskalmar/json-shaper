@@ -1,11 +1,11 @@
 {
   "name": "json-shaper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shape a flat array into a molded json shape with deep nesting",
   "author": "Chris Kalmar <christian.kalmar@gmail.com>",
   "main": "dist/",
   "scripts": {
-    "test": "mocha --compilers js:babel-register --require test/setup.js -R spec --check-leaks **/*.js",
+    "test": "mocha --compilers js:babel-register --require test/setup.js -R spec --check-leaks lib/*.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "mkdir dist; babel lib/json-shaper.js -o dist/index.js",

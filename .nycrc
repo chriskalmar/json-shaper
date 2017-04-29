@@ -10,6 +10,7 @@
   "exclude": [
     "test/*",
     "dist/*",
+    "examples/*",
     "**/*.spec.js"
   ],
   "require": [
