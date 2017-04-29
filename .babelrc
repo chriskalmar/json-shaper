@@ -2,7 +2,11 @@
   "presets": [
     "es2015"
   ],
-  "plugins": [
-    "istanbul"
-  ]
+  "env": {
+    "test": {
+      "plugins": [
+        "istanbul"
+      ]
+    }
+  }
 }

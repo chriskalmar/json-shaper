@@ -8,8 +8,8 @@
     "test": "mocha --compilers js:babel-register --require test/setup.js -R spec --check-leaks **/*.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "coverage": "nyc npm run test",
-    "coverage-codecov": "nyc npm run test && cat ./coverage/lcov.info | codecov"
+    "coverage": "NODE_ENV=test nyc npm run test",
+    "coverage-codecov": "NODE_ENV=test nyc npm run test && cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
