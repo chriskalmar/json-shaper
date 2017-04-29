@@ -8,7 +8,8 @@
     "test": "mocha --compilers js:babel-register --require test/setup.js -R spec --check-leaks **/*.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "coverage": "nyc npm run test"
+    "coverage": "nyc npm run test",
+    "coverage-codecov": "nyc npm run test && cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1",
     "chai": "^3.5.0",
+    "codecov": "^2.1.0",
     "eslint": "^3.19.0",
     "mocha": "^3.3.0",
     "nyc": "^10.3.0"
