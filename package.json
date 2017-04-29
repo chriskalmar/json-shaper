@@ -1,0 +1,25 @@
+{
+  "name": "json-shaper",
+  "version": "0.1.0",
+  "description": "Shape a flat array into a molded json shape with deep nesting",
+  "author": "Chris Kalmar <christian.kalmar@gmail.com>",
+  "main": "./lib/json-shaper",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriskalmar/json-shaper.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "array",
+    "transform"
+  ],
+  "bugs": {
+    "url": "https://github.com/chriskalmar/json-shaper/issues"
+  },
+  "homepage": "https://github.com/chriskalmar/json-shaper#readme",
+  "license": "MIT"
+}
