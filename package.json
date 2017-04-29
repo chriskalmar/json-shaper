@@ -1,6 +1,6 @@
 {
   "name": "json-shaper",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Shape a flat array into a molded json shape with deep nesting",
   "author": "Chris Kalmar <christian.kalmar@gmail.com>",
   "main": "dist/",
@@ -38,6 +38,7 @@
     "codecov": "^2.1.0",
     "eslint": "^3.19.0",
     "mocha": "^3.3.0",
-    "nyc": "^10.3.0"
+    "nyc": "^10.3.0",
+    "sinon": "^2.1.0"
   }
 }
