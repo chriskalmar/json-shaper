@@ -5,7 +5,7 @@
   "author": "Chris Kalmar <christian.kalmar@gmail.com>",
   "main": "dist/",
   "scripts": {
-    "test": "mocha --compilers js:babel-register -R spec --check-leaks lib/*.js",
+    "test": "npm run lint && mocha --compilers js:babel-register -R spec --check-leaks lib/*.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "mkdir dist; babel lib/json-shaper.js -o dist/index.js",
