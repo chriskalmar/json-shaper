@@ -8,7 +8,7 @@
     "test": "npm run lint && mocha --compilers js:babel-register -R spec --check-leaks lib/*.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "build": "mkdir dist; babel lib/json-shaper.js -o dist/index.js",
+    "build": "mkdir dist; npm run test && babel lib/json-shaper.js -o dist/index.js",
     "coverage": "NODE_ENV=test nyc npm run test",
     "coverage-codecov": "NODE_ENV=test nyc npm run test && cat ./coverage/lcov.info | codecov",
     "prepublish": "npm run build"
