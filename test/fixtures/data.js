@@ -50,6 +50,7 @@ export const fixtureOutput = [
     id: 32,
     firstName: 'John',
     lastName: 'Dow',
+    fullName: 'JOHN DOW',
     workplace: {
       id: 12,
       name: 'ACME Inc.',
@@ -65,6 +66,7 @@ export const fixtureOutput = [
     id: 100,
     firstName: 'Mike',
     lastName: '',
+    fullName: '-incomplete-',
     workplace: {
       id: 532,
       name: '',
@@ -80,6 +82,7 @@ export const fixtureOutput = [
     id: 872,
     firstName: 'Jane',
     lastName: 'Dot',
+    fullName: 'JANE DOT',
     workplace: {
       id: 152,
       name: 'Super Corp.',
@@ -95,6 +98,7 @@ export const fixtureOutput = [
     id: undefined,
     firstName: undefined,
     lastName: undefined,
+    fullName: '-incomplete-',
     workplace: {
       id: undefined,
       name: undefined,
@@ -110,6 +114,7 @@ export const fixtureOutput = [
     id: undefined,
     firstName: undefined,
     lastName: undefined,
+    fullName: '-incomplete-',
     workplace: {
       id: undefined,
       name: undefined,
@@ -125,6 +130,7 @@ export const fixtureOutput = [
     id: 99999,
     firstName: undefined,
     lastName: undefined,
+    fullName: '-incomplete-',
     workplace: {
       id: undefined,
       name: undefined,
