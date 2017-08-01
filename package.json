@@ -1,6 +1,6 @@
 {
   "name": "json-shaper",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Shape a flat array into a molded json shape with deep nesting",
   "author": "Chris Kalmar <christian.kalmar@gmail.com>",
   "main": "dist/",
